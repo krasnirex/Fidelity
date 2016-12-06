@@ -8,7 +8,7 @@
         if (clicked)
         {
             Entities.editEntity(entityID, { color: { red: 0, green: 0, blue: 255} });
-            Entities.editEntity(entityID, { gravity: { x: 0, y: 4, z: 0} });
+            Entities.editEntity(entityID, { gravity: { x: 0, y: 0.5, z: 0} });
             clicked = false;
         }
         else
