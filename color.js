@@ -1,11 +1,16 @@
 //  changeColorOnClickDown.js
-(function(){ 
+(function()
+ { 
     var clicked = false;
-    this.clickDownOnEntity = function(entityID, mouseEvent) { 
-        if (clicked){
+    this.clickDownOnEntity = function(entityID, mouseEvent) 
+    { 
+        if (clicked)
+        {
             Entities.editEntity(entityID, { color: { red: 0, green: 0, blue: 255} });
             clicked = false;
-        }else{
+        }
+        else
+        {
             Entities.editEntity(entityID, { color: { red: 0, green: 0, blue: 0} });
             clicked = true; 
         }
