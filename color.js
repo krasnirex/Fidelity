@@ -1,5 +1,6 @@
 //  changeColorOnClickDown.js
-(function()
+(
+ function()
  { 
     var clicked = false;
     this.clickDownOnEntity = function(entityID, mouseEvent) 
@@ -15,4 +16,5 @@
             clicked = true; 
         }
     }; 
-})
+}
+)
