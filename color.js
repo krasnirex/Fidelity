@@ -6,7 +6,7 @@
             Entities.editEntity(entityID, { color: { red: 0, green: 0, blue: 255} });
             clicked = false;
         }else{
-            Entities.editEntity(entityID, { color: { red: 255, green: 0, blue: 0} });
+            Entities.editEntity(entityID, { color: { red: 0, green: 0, blue: 0} });
             clicked = true; 
         }
     }; 
