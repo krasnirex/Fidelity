@@ -15,7 +15,7 @@ freeJoint = LeftArm
 freeJoint = LeftForeArm
 freeJoint = RightArm
 freeJoint = RightForeArm
-bs = JawOpen = MouthOpen = 0.69999999999999996
+bs = MouthOpen = 1
 jointIndex = LeftHandPinky4 = 35
 jointIndex = RightHandIndex3 = 14
 jointIndex = RightHandMiddle1 = 24
